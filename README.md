@@ -1,28 +1,34 @@
 # 💼 Projeto Financeiro Web
 
-🚀 Sistema web desenvolvido para automatizar o envio de arquivos `.xlsx` e `.csv` para e-mails predefinidos, com uma interface intuitiva e um painel visual que organiza os dados de forma clara e eficiente.
+🚀 Sistema web desenvolvido para automatizar o envio de arquivos `.xlsx` e `.csv` para e-mails predefinidos, com uma interface intuitiva e painel visual para organização de dados.
 
-🔗 **Acesse o sistema online:**  
+🔗 **Acesse o sistema em produção:**  
 👉 [https://projeto-web-fmx8.onrender.com](https://projeto-web-fmx8.onrender.com)
+
+🎨 **Protótipo no Figma:**  
+👉 [Visualizar design inicial](https://www.figma.com/design/U0PwwK9lBAhS8rFnY6kizc/Projeto-Web?node-id=0-1&p=f&t=LFx1ifNrvNP7aTfy-0)
+
+📋 **Gestão de tarefas no Trello:**  
+👉 [Quadro de organização do projeto](https://trello.com/invite/b/688a211e42e56ccb4e9e1fc9/ATTI8ebf3c94cd469cbd84672326fb27720c76D39356/gestao-projeto-web)
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-Este projeto nasceu com a proposta de ir além da programação em si: ele também representa meu compromisso em **aprender na prática como estruturar, organizar e implementar uma aplicação web completa**, com front-end, back-end, banco de dados e deploy em produção.
+Este projeto foi criado para unir teoria e prática em uma aplicação web com propósito real. Busquei, além de desenvolver minhas **habilidades em programação**, também exercitar a **organização estrutural, o design de interfaces e a gestão de tarefas**.
 
-🧠 A motivação foi desenvolver um sistema funcional que:
-- Armazena arquivos `.xlsx` e `.csv`;
-- Lê informações desses arquivos e identifica e-mails-alvo;
-- Envia os dados por e-mail de forma automática;
-- Exibe painéis (dashboards) com informações estilizadas;
-- Faz uso de tecnologias modernas com integração em nuvem.
+A proposta do sistema é:
+- Armazenar arquivos `.xlsx` e `.csv`;
+- Ler e extrair e-mails dos arquivos localmente;
+- Enviar os arquivos por e-mail automaticamente;
+- Exibir um dashboard com as informações organizadas;
+- Aplicar boas práticas de estruturação e deploy profissional.
 
-Esse projeto foi construído com base em estudo de caso, escolha consciente de tecnologias e muita prática. Ainda está em evolução, mas **já está em produção e disponível online.**
+Este projeto está sendo desenvolvido com base em estudos práticos, testes e escolha estratégica de tecnologias modernas. **Já está parcialmente concluído e publicado.**
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 | Camada        | Tecnologias                        |
 |---------------|------------------------------------|
@@ -30,6 +36,8 @@ Esse projeto foi construído com base em estudo de caso, escolha consciente de t
 | **Front-end** | HTML · CSS · JavaScript            |
 | **Deploy**    | Render (produção)                  |
 | **Banco**     | Supabase (PostgreSQL) · SQL local  |
+| **Design**    | Figma                              |
+| **Gestão**    | Trello                             |
 
 ---
 ## ✅ Funcionalidades Implementadas
@@ -45,9 +53,6 @@ Esse projeto foi construído com base em estudo de caso, escolha consciente de t
 - [ ] Dashboard interativo com gráficos dinâmicos (em construção)
 
 ---
-
-
-
 <h2>📄 Licença</h2>
 <p>Este projeto está licenciado sob a <a href="LICENSE">MIT License</a>.</p>
     
