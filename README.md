@@ -53,6 +53,20 @@ Este projeto está sendo desenvolvido com base em estudos práticos, testes e es
 - [ ] Dashboard interativo com gráficos dinâmicos (em construção)
 
 ---
+## 📸 Imagens do Projeto
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/0d66c10c-8527-4baf-b2e7-eae77dd68f2c" />
+
+<img width="1916" height="1015" alt="image" src="https://github.com/user-attachments/assets/355ccc1b-bec2-43a7-bda3-937fb4b62028" />
+
+<img width="1916" height="1020" alt="image" src="https://github.com/user-attachments/assets/177d8794-04c0-4c61-968f-2c3e91b62685" />
+
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/ce000a12-3180-4125-afdf-8dd77b32594c" />
+
+<img width="1810" height="276" alt="image" src="https://github.com/user-attachments/assets/fdfba292-1c1e-4726-a00a-89d35f1c2591" />
+
+<img width="1511" height="397" alt="image" src="https://github.com/user-attachments/assets/18f26fbd-1932-4e48-b822-3698e9dcdf08" />
+
+---
 <h2>📄 Licença</h2>
 <p>Este projeto está licenciado sob a <a href="LICENSE">MIT License</a>.</p>
     
