@@ -32,7 +32,19 @@ Esse projeto foi construído com base em estudo de caso, escolha consciente de t
 | **Banco**     | Supabase (PostgreSQL) · SQL local  |
 
 ---
+## ✅ Funcionalidades Implementadas
 
+- [x] Sistema de login básico
+- [x] Front-end estilizado com imagens e CSS personalizado
+- [x] Upload de arquivos `.xlsx` e `.csv`
+- [x] Leitura automática de e-mails dentro dos arquivos
+- [x] Envio automático de mensagens com anexos
+- [x] Deploy com Render
+- [x] Integração com banco de dados Supabase
+- [ ] Validação de arquivos e usuários (em andamento)
+- [ ] Dashboard interativo com gráficos dinâmicos (em construção)
+
+---
 
 
 
