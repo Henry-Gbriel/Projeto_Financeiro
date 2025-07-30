@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Intro</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/imgHenryr.png') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/painel.css') }}" />
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
+            <a href="{{ url_for('intro_page') }}">
+                <img src="{{ url_for('static', filename='imagens/imgHenryF.png') }}" alt="Logo" class="logo_acesso">
+            </a>
+        </div>
+
+        <nav class="menu">
+            <p class="menu-title">Descubra</p>
+            <ul>
+                <li><a href="{{ url_for('intro_page') }}"><i class="fa fa-home"></i> Início</a></li>
+                <li><a href="#"><i class="fa fa-search"></i> Navegar</a></li>
+            </ul>
+
+            <p class="menu-title">Biblioteca</p>
+            <ul>
+                <li><a href="#"><i class="fa fa-chart-bar"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fa fa-history"></i> Histórico</a></li>
+                <li><a href="#"><i class="fa fa-paper-plane"></i> Envio</a></li>
+                <li><a href="{{ url_for('login_page') }}"><i class="fa fa-sign-out-alt"></i> Sair</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <button class="btn-error">Chamado para erro</button>
+
+        <div class="welcome">
+            <h1>Olá <span></span></h1>
+            <p>Envio dos dados automatizados em CSV e XLSX</p>
+
+            <button class="btn-upload">
+                <i class="fa fa-upload"></i> Enviar arquivo
+            </button>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/painel.js') }}"></script>
+</body>
+
+</html>

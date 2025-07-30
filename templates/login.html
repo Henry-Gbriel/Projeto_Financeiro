@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tela de Acesso</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/imgHenryr.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="container_acesso">
+
+        <img src="{{ url_for('static', filename='imagens/imgHenryF.png') }}" alt="Logo" class="logo_acesso">
+
+        <h2 class="title_acesso">Bem-vindo Colaborador</h2>
+
+        <br />
+
+        <input type="email" id="email" placeholder="email@gmail.com" class="input" />
+        <input type="password" id="senha" placeholder="Insira a sua senha..." class="input" />
+
+        <!-- Div para mostrar mensagens de erro -->
+        <div id="mensagemErro" style="color: red; margin-top: 10px;"></div>
+
+        <!-- Botão de Login principal -->
+        <button onclick="fazerLogin()">Login</button>
+
+        <!-- Botões auxiliares -->
+        <button onclick="window.location.href='/esqui'" class="secondary_acesso">Esqueci a senha</button>
+        <button onclick="window.location.href='/'" class="secondary_acesso">Primeiro acesso</button>
+
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

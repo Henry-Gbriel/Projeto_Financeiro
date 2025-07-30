@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de Senha</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/imgHenryr.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='imagens/imgHenryF.png') }}" alt="Logo" class="logo_esqui">
+        <h2 class="title_esqui">Recuperação de Senha</h2>
+        <p class="subtitle_esqui">Informe seu e-mail para receber a nova senha</p>
+
+        <input type="email" id="email" placeholder="email@gmail.com" class="input" />
+        <div id="mensagem"></div>
+        <button onclick="enviarLink()">Enviar Link</button>
+        <button onclick="window.location.href='/login'" class="secondary_esqui">Voltar ao Login</button>
+
+        <div id="mensagem" class="message"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

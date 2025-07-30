@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Acesso </title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='imagens/imgHenryr.png') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='imagens/imgHenryF.png') }}" alt="Logo" class="logo">
+        <h2>Bem-vindo Colaborador</h2>
+        <p class="subtitle">Criação de acesso ao Sistema Financeiro</p>
+
+        <br>
+
+        <!-- Linha: Cargo + Email -->
+        <div class="form-row">
+            <select id="cargo" class="input">
+                <option disabled selected>Selecione seu Cargo</option>
+                <option>CEO</option>
+                <option>Diretor Financeiro</option>
+                <option>Gestor Financeiro</option>
+                <option>Coordenador Financeiro</option>
+                <option>Analista Financeiro</option>
+                <option>Assistente Financeiro</option>
+                <option>Estagiário Financeiro</option>
+            </select>
+            <input type="nome" id="nome" class="input" placeholder="Coloque seu nome completo">
+
+            <input type="email" id="email1" class="input" placeholder="email@gmail.com">
+        </div>
+
+        <input type="email" id="email2" class="input" placeholder="Confirme seu e-mail">
+
+        <p class="info">Sua senha deve ter no mínimo 8 caracteres e um deles deve ser especial</p>
+
+        <!-- Linha: Senha + Confirmação -->
+        <div class="form-row">
+            <input type="password" id="senha1" class="input" placeholder="Insira a sua senha...">
+            <input type="password" id="senha2" class="input" placeholder="Confirme sua senha...">
+        </div>
+
+        <button onclick="criarAcesso()">Criando Acesso</button>
+        <button onclick="window.location.href='/login'" class="secondary">Já tenho acesso</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

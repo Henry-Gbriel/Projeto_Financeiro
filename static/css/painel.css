@@ -1,0 +1,149 @@
+/* Layout geral */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background: #f5f5f5;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    width: 220px;
+    background: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar .logo img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.menu-title {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.sidebar li:hover {
+    background: #f0f0f0;
+}
+
+
+/* Conteúdo principal */
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: #fff;
+}
+
+
+/* Botão de erro */
+
+.btn-error {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Mensagem de boas-vindas */
+
+.welcome {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.welcome h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.welcome p {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+
+/* Botão upload */
+
+.btn-upload {
+    background: #ff6a33;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-upload:hover {
+    background: #e55a25;
+}
+
+
+/* Responsividade opcional */
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    .main-content {
+        padding: 20px;
+    }
+    .btn-error {
+        top: 10px;
+        right: 10px;
+        padding: 8px 12px;
+    }
+    .btn-upload {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
